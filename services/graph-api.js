@@ -164,7 +164,9 @@ module.exports = class GraphApi {
     url.search = new URLSearchParams({
       access_token: config.pageAccesToken
     });
+    console.log("=======================> url",url);
     let response = await fetch(url);
+    console.log("=======================> url",response);
     if (response.ok) {
       let body = await response.json();
       return body.data;

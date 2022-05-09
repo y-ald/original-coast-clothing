@@ -41,7 +41,9 @@ module.exports = class Profile {
     let newPersonas = config.newPersonas;
 
     let personas = await GraphApi.getPersonaAPI();
+    console.log("=========================**********************=======>",personas);
     for (let persona of personas) {
+      console.log("=========================***************=======>persona",persona);
       config.pushPersona({
         name: persona.name,
         id: persona.id

@@ -1,0 +1,6 @@
+
+curl -X POST -H "Content-Type: application/json" -d '{
+	"name": "John Mathew",
+	"profile_picture_url": "https://facebook.com/john_image.jpg",
+}'
+"https://graph.facebook.com/v13.0/270549832967241/personas?access_token=EAAGNNZBIHneoBAIIW4LwZBAbQaVZBcYQs8vt5Mc7VvH0q02wKc1b2aKYABZBswUjggUsPQX5MG8hNmp6pMCcfoRPmqHLxhMJZBtyfGKhWBvYZCydLh8VmfLa1iC7coIwxGcAgwH5OFVDp77coGwtoHQMxXIcV5nVv8qRXkN9y6Lo6Fu14mbnFa"
